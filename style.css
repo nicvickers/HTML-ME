@@ -1,0 +1,64 @@
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: orange;
+}
+
+img {
+	max-width: 100%;
+}
+
+div {
+	padding: 2px;
+}
+
+header {
+	text-align: right;
+}
+
+footer {
+	text-align: center;
+	background-color: blue;
+	color: white;
+}
+
+h1 {
+	position: absolute;
+	top: 20px;
+	margin-left: 100px;
+}
+
+.head {
+	margin: 5px;
+	display: inline;
+}
+
+.content {
+	max-width: 30%;
+	text-align: center;
+	display: inline-block;
+}
+
+.categoryImg {
+	max-width: 30%;
+}
+
+.categoryImg:hover {
+    max-width: 32%;
+	border: 2px solid;
+}
