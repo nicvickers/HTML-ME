@@ -2,7 +2,8 @@
 a:link {
     color: black;
 }
-
+body {background-color: #e39ae4;
+}
 /* visited link */
 a:visited {
     color: purple;
@@ -15,6 +16,7 @@ a:active {
 
 img {
 	max-width: 100%;
+	border: 5px solid #000;
 }
 
 div {
@@ -27,14 +29,13 @@ header {
 
 footer {
 	text-align: center;
-	background-color: blue;
+	background-color: black;
 	color: white;
 }
 
 h1 {
-	position: absolute;
 	top: 20px;
-	margin-left: 100px;
+	text-align: center;
 }
 
 .head {
