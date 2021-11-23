@@ -1,22 +1,16 @@
 /* unvisited link */
 a:link {
-    color: blue;
+    color: black;
 }
 
 /* visited link */
 a:visited {
-    color: blue;
-}
-
-/* mouse over link */
-a:hover {
-    color: red;
-	text-decoration: none;
+    color: purple;
 }
 
 /* selected link */
 a:active {
-    color: orange;
+    color: purple;
 }
 
 img {
@@ -28,7 +22,7 @@ div {
 }
 
 header {
-	text-align: right;
+	text-align: center;
 }
 
 footer {
@@ -54,11 +48,23 @@ h1 {
 	display: inline-block;
 }
 
-.categoryImg {
-	max-width: 30%;
+
+#intro {
+	text-align: center;
 }
 
-.categoryImg:hover {
-    max-width: 32%;
-	border: 2px solid;
+#edu {
+	text-align: center;
+}
+
+#experience {
+	text-align: center;
+}
+
+#quotes {
+	text-align: center;	
+}
+
+#footlink {
+	color: white;
 }
