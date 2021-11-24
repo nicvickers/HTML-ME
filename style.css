@@ -23,6 +23,10 @@ div {
 	padding: 2px;
 }
 
+body {
+	margin: 8px;
+	display: block
+}
 header {
 	text-align: center;
 }
@@ -33,22 +37,23 @@ footer {
 	color: white;
 }
 
-h1 {
-	top: 20px;
+mainHeading {
 	text-align: center;
+	color: red;
 }
 
-.head {
-	margin: 5px;
-	display: inline;
+h1 {
+text-align: center
 }
-
 .content {
 	max-width: 30%;
 	text-align: center;
-	display: inline-block;
+	display: center;
 }
-
+testp {
+	text-align: center;
+	color: green;
+}
 
 #intro {
 	text-align: center;
